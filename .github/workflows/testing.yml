@@ -23,5 +23,5 @@ jobs:
           COMMIT_MESSAGES: ${{ toJson(github.event.commits.*.message) }}
         run: echo "$COMMIT_MESSAGES"
       - name: testing conditions
-        if: ${{ github.event.commits.*.message == 'push' }}
+        if: ${{ contains(join(github.event.commits.*.message,""), "#skip") }}
         run: echo "testing"
