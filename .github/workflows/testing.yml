@@ -3,7 +3,7 @@ name: Testing environment variables
 on:
   push:
     branches:
-      - main
+      - master 
 
 jobs:
   a_test_job:
