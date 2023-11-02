@@ -1,4 +1,4 @@
-rame: Health Check
+name: Health Check
 
 on:
   schedule:
