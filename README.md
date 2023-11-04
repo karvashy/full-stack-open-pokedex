@@ -13,3 +13,6 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+# Repository for 11.20-11.21 exercises
+[Blogapp Repository](https://github.com/karvashy/fullstack-blogapp-with-cicd)
